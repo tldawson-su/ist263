@@ -1,0 +1,26 @@
+body {font-family: Arial, Helvetica, sans-serif; color: #000000;}
+h1,h2,h3,caption {font-family: Arial, Helvetica, sans-serif; color: #000000;}
+body {background-color: #ffffff;}
+a:visited {color: #1746a2;}
+a:hover {color: #5f9df7;}
+nav {background-color: #ff731d; font-size: 1em; padding: 10px; margin-bottom: 30px;}
+nav a {color:#000000;}
+nav a:hover {background-color: #1746a2;}
+h1 {font-size: 2em;}
+h2 {font-size: 2em; color: #ffffff; background-color: #1746a2;}
+h3 {font-size: 2em;}
+.quote {float: right;}
+.row1, .row2 {display:flex;}
+.row2 {background-color: #1746a2; color: #ffffff; border-radius: 2em; margin: 30px; flex-wrap:wrap;}
+.row1 {background-color: #ffffff; color: #1746a2; margin: 20px;}
+.column1 {padding:40px; flex:1}
+.map {padding:40px; flex:2; max-width: 80%;}
+div {justify-content: center;} 
+.skillicons {display: flex; justify-content: space-between; flex-basis: 70%; margin: 20px; padding: 20px;}
+.aside {background-color: #1746a2; color: #ffffff; border-radius: 2em; margin: 30px; padding: 40px;}
+.flexbox {display: flex; justify-content: space-between;}
+.flexbox2 {flex-basis: 30%; margin: 20px; padding: 20px;}
+.header {max-width: 100%;}
+@media only screen and (max-width: 600px) {nav a {display:block; padding: 5px;} span {display: none;}}
+.skip {background-color: #ff731d; padding: 5px; border: 1px solid black; position: absolute; top:30px; left: -999px;}
+.skip:focus {left: 10px}
