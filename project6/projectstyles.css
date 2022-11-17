@@ -1,0 +1,13 @@
+body {font-family: Arial, Helvetica, sans-serif; color: #000000;}
+h2,h3,caption {font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 2em;}
+h1 {font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 4em;}
+body {background-color: #ffffff;}
+nav {background-color: #ff731d; font-size: 1em; margin-bottom: 30px; padding: 10px;text-align: center; font-size: 2em;}
+nav a {color:#000000;}
+nav a:hover {background-color: #ffffff;}
+.welcome {text-align: center;}
+.logo {text-align: center;}
+.intro {text-align: center;}
+.flexbox {display: flex; justify-content: center; margin: 20px; padding: 20px; flex-wrap: wrap; justify-content: space-between;}
+
+
