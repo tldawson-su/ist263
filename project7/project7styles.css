@@ -26,6 +26,6 @@ footer a:hover {color: #ffffff;}
 @media only screen and (max-width: 2000px) {.flexbox img {width: 100%; height:auto;}}
 @media only screen and (max-width: 600px) {.logo img {width: 100%; height:auto;}}
 
-.skip {background-color: #ff731d; padding: 5px; border: 1px solid black; position: absolute; top:30px; left: -999px;}
+.skip {background-color: #ff731d; padding: 5px; border: 1px solid black; position: absolute; top:30px; left: -999px; color: #000000;}
 .skip:focus {left: 10px}
 
