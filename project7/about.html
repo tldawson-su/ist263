@@ -14,7 +14,19 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
     </style>
-    
+
+    <script>
+        function validateForm() {
+  let x = document.forms["myForm"]["email"].value;
+  if (x == "") {
+    alert("Form must be filled out");
+    return false;
+  }
+}
+
+
+    </script>
+
 </head>
 
 <body>
@@ -52,13 +64,25 @@
 
     Looking forward, I want to continue to add to my portfolio of kit concepts, delve into other sports designs, and try my hand at redesigning logos.
 
-    <br><br>
+    <br><br><br>
 
-    For questions, suggestions, or business inquiries, contact me below:
+    For questions, suggestions, or business inquiries, fill out the form below:
 
-    <br><br>
-
-    <a href="mailto:tldawsonn@gmail.com">tldawsonn@gmail.com</a>
+    <form name="myForm" action="" onsubmit="return validateForm()" method="post" class="form">
+        <b class="inquiry">Inquiry Form</b>
+        <br><br>
+        Email: <input type="email" name="email">
+        <br>
+        <br>
+        Phone: <input type="phone" name="phone">
+        <br>
+        <br>
+        <label for="inquiries">Inquiry:</label>
+        <textarea id="inquiries" name="inquiries"></textarea><br>
+        <br>
+        
+        <input type="submit" value="Submit">
+        </form>
 
     <br>
 

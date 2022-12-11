@@ -24,8 +24,13 @@ footer a:hover {color: #ffffff;}
 .galleryflex {display: flex; justify-content: center; margin: 20px; padding: 20px; flex-wrap: wrap; justify-content: space-around;}
 
 @media only screen and (max-width: 2000px) {.flexbox img {width: 100%; height:auto;}}
+@media only screen and (max-width: 2000px) {.galleryflex img {width: 100%; height:auto;}}
 @media only screen and (max-width: 600px) {.logo img {width: 100%; height:auto;}}
+@media only screen and (max-width: 600px) {.headshot img {width: 100%; height:auto;}}
 
 .skip {background-color: #ff731d; padding: 5px; border: 1px solid black; position: absolute; top:30px; left: -999px; color: #000000;}
 .skip:focus {left: 10px}
+
+.form {margin: 50px; padding: 30px;}
+.inquiryform {font-size: 2em;}
 
